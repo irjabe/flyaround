@@ -27,7 +27,7 @@
             </tr>
             <tr>
                 <th>Takeoftime</th>
-                <td>{{ flight.takeofTime }}</td>
+                <td>{{ flight.takeofTime | date("d/m/Y h:i:s") }}</td>
             </tr>
         </tbody>
     </table>
